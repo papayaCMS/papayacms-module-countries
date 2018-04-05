@@ -1,15 +1,16 @@
 {
   "name": "papaya/module-countries",
+  "license": "GPL-2.0",
   "minimum-stability": "dev",
   "extra" : {
     "document-root" : "htdocs/"
   },
   "require": {
-    "papaya/cms-core": "*"
+    "papaya/cms-core": "6.*"
   },
   "require-dev": {
-    "papaya/cms-administration": "*",
-    "papaya/template-responsive": "*",
-    "papaya/theme-dynamic": "*"
+    "papaya/cms-administration": "6.*",
+    "papaya/template-responsive": "1.*",
+    "papaya/theme-dynamic": "1.*"
   }
 }
